@@ -27,7 +27,7 @@ import UIKit
         set {}
     }
     
-    var actualIndicatorSize: CGSize = CGSize(width: 10, height: 10)
+    var actualIndicatorSize: CGSize = CGSize(width: 6, height: 6)
     override public var indicatorSize: CGSize {
         get { return actualIndicatorSize }
         set {
